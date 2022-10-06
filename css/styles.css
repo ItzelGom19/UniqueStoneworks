@@ -1,0 +1,38 @@
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+#menuLinks a{
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+.carousel-item{
+    max-height: 30rem;
+    padding: 1px;
+}
+
+.cards-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin:0 .5em;
+}
+
+footer{
+    text-align: center;
+    
+}
+
+
+
+
+@media(max-width:769px){
+    #aboutUs{
+        width: 90% !important;
+
+    }
+}
